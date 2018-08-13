@@ -23,4 +23,4 @@ def do_admin_login():
  
 if __name__ == "__main__":
     app.secret_key = os.urandom(12)
-    app.run(debug=True)
+    app.run(debug=True, host=192.168.144.141, port=5000)
